@@ -2,6 +2,9 @@
   "name": "react-todo-list",
   "version": "0.1.0",
   "private": true,
+  "resolutions": {
+    "react-devtools-core": "4.24.7"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

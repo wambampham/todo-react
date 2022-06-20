@@ -7,11 +7,11 @@ import Todo from "./Todo.js";
 //think as if its like this:
 // for todo in todos:
 //      call the Todo List
-function TodoList({ todos, setTodos }) {
+function TodoList({ todos, setTodos, filteredTodos }) {
   return (
     <div className="todo-container">
       <ul className="todo-list">
-        {todos.map((todo) => (
+        {filteredTodos.map((todo) => (
           <Todo
             key={todo.id}
             taskText={todo.text}
